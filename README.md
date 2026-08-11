@@ -1,85 +1,77 @@
 Agricultural Equipment Rental Marketplace for Farmers
-
 React + Spring Boot + MySQL
 
 1. Project Overview
 
-A full-stack platform connecting farmers with agricultural equipment owners.
+A full-stack web application for renting agricultural
+equipment. Farmers can browse and book equipment, while
+equipment owners can list equipment and manage bookings.
 
-Farmers can browse and book equipment, while owners can list equipment and manage bookings.
 
 2. Main Features
 
-User registration and login
-
-Farmer and Owner roles
-
-Equipment listing and browsing
-
-Equipment booking
-
-Booking management
-
-Availability management
-
-Booking status tracking
+• User registration and login
+• Farmer and Equipment Owner roles
+• Add and manage equipment
+• Browse available equipment
+• Book agricultural equipment
+• Manage rental bookings
+• Update equipment availability
 
 
 3. Technology
 
-Frontend: React, JavaScript, CSS
-
-Backend: Java, Spring Boot
-
-Database: MySQL
-
-ORM: Spring Data JPA
-
-API: REST API
-
-Build Tool: Maven
-
-Tools: VS Code, Git, GitHub
+• Frontend: React.js, JavaScript, HTML, CSS
+• Backend: Java 17/21, Spring Boot
+• Database: MySQL, Spring Data JPA/Hibernate
+• API: REST API
+• Build: Maven
+• Version Control: Git and GitHub
 
 
 4. Basic Flow
 
-User registers/logs in.
-
-Farmer browses equipment.
-
-Farmer books equipment.
-
-Owner manages booking requests.
-
-Booking data is stored in MySQL.
-
-Equipment availability is updated.
+• User opens the React application.
+• User registers or logs in.
+• Farmer browses available equipment.
+• Farmer selects and books equipment.
+• Booking is sent to the Spring Boot backend.
+• Booking information is stored in MySQL.
+• Owner manages the booking.
+• Booking status is displayed to the farmer.
 
 
-5. Project Structure
+5. MVP
 
-Frontend: React components, pages, forms, dashboards
+The first version provides the basic rental workflow:
 
-Backend: Controller, Service, Repository, Entity
+• Register a user
+• Add agricultural equipment
+• Browse equipment
+• Create a booking
+• View booking information
+• Manage booking status
+• Update equipment availability
 
-Database: Users, Equipment, Bookings, Availability
 
 6. Future Enhancements
 
-Online payment
-
-Search and filters
-
-Reviews and ratings
-
-Location-based search
-
-Admin dashboard
-
-Cloud deployment
+• Online payment
+• Equipment search and filtering
+• Ratings and reviews
+• Location-based equipment search
+• Email notifications
+• Admin dashboard
+• Cloud deployment
+• Mobile application
 
 
 7. Expected Outcome
 
-A simple and efficient platform that helps farmers rent agricultural equipment without purchasing expensive machinery.
+The application provides an easy-to-use platform for
+farmers to rent agricultural equipment without purchasing
+expensive machinery.
+
+The project demonstrates full-stack development, REST API
+integration, database connectivity, equipment management,
+and rental booking functionality.
