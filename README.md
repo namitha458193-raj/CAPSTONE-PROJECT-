@@ -1,47 +1,85 @@
 Agricultural Equipment Rental Marketplace for Farmers
+
 React + Spring Boot + MySQL
+
 1. Project Overview
-A full-stack web application that allows farmers to find and rent agricultural equipment such as tractors, harvesters, seed drills, and sprayers. Equipment owners can list their available machinery and manage rental requests. The application uses React for the frontend, Spring Boot for the backend, and MySQL for data storage.
+
+A full-stack platform connecting farmers with agricultural equipment owners.
+
+Farmers can browse and book equipment, while owners can list equipment and manage bookings.
+
 2. Main Features
-User registration and login.
-Farmer and Equipment Owner roles.
-Equipment owners can add and manage equipment.
-Farmers can browse available agricultural equipment.
-Farmers can book equipment for required dates.
-Users can view and manage their bookings.
-Equipment owners can approve or reject booking requests.
-Equipment availability can be updated after booking.
+
+User registration and login
+
+Farmer and Owner roles
+
+Equipment listing and browsing
+
+Equipment booking
+
+Booking management
+
+Availability management
+
+Booking status tracking
+
+
 3. Technology
-Frontend: React.js, JavaScript, HTML, CSS/Bootstrap.
-Backend: Java 17/21 and Spring Boot.
-Database: MySQL with Spring Data JPA/Hibernate.
-API: REST API.
-Testing: Postman / JUnit.
-Build: Maven.
-Version Control: Git and GitHub.
-Development Tool: VS Code.
+
+Frontend: React, JavaScript, CSS
+
+Backend: Java, Spring Boot
+
+Database: MySQL
+
+ORM: Spring Data JPA
+
+API: REST API
+
+Build Tool: Maven
+
+Tools: VS Code, Git, GitHub
+
+
 4. Basic Flow
-User opens the agricultural equipment rental application.
-User registers or logs in.
-Farmer browses available equipment.
-Farmer selects the required equipment.
-Farmer enters the rental details and creates a booking.
-Booking is stored in MySQL.
-Equipment owner views the booking request.
-Owner approves or rejects the request.
-The booking status is displayed to the farmer.
+
+User registers/logs in.
+
+Farmer browses equipment.
+
+Farmer books equipment.
+
+Owner manages booking requests.
+
+Booking data is stored in MySQL.
+
+Equipment availability is updated.
+
+
 5. Project Structure
-Frontend: React components and pages for login, equipment listing, booking, and dashboards.
-Backend: Spring Boot Controller, Service, Repository, Entity, and REST API layers.
-Database: Users, Equipment, Bookings, and supporting tables.
+
+Frontend: React components, pages, forms, dashboards
+
+Backend: Controller, Service, Repository, Entity
+
+Database: Users, Equipment, Bookings, Availability
+
 6. Future Enhancements
-Online payment integration.
-Equipment search and category filtering.
-Location-based equipment search.
-Reviews and ratings.
-Email/SMS booking notifications.
-Admin dashboard and content management.
-Cloud deployment.
-Equipment rental history and reports.
+
+Online payment
+
+Search and filters
+
+Reviews and ratings
+
+Location-based search
+
+Admin dashboard
+
+Cloud deployment
+
+
 7. Expected Outcome
-The project provides a simple, secure, and user-friendly marketplace that connects farmers with agricultural equipment owners. It demonstrates full-stack development, REST APIs, database connectivity, equipment management, booking functionality, and a scalable architecture suitable for future cloud deployment.
+
+A simple and efficient platform that helps farmers rent agricultural equipment without purchasing expensive machinery.
